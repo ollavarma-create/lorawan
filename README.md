@@ -89,10 +89,7 @@
 - Fusion360 drawing for Raspberry Pi5 + LoraWan module and antenna: https://a360.co/4tKQ2nZ
 
 **5 May 2026**
-- Blog  story: [Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](https://hiltsu.codeberg.page/en/posts/stevenson-shield-esp32-lorawan/)
-
-**12 May 2026**
-- Postihaly, the PostBox Alarm c++ code ready and tested up to Chirpstack, mqtt, telegraf, influxdb and Grafana -> [PostBox Alarm](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/PlatformIO/PostboxAlarm)
+- Blog  story: [Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](hhttps://ollavarma-create.github.io/blog/en/posts/stevenson-shield-esp32-lorawan/)
 
 ---
 
@@ -356,8 +353,6 @@ Full documentation of Battery-powered mailbox alert system using ESP32-WROOM-32D
 
 MIT License
 
-Copyright (c) 2026 Jari Hiltunen (Codeberg: [hiltsu](https://codeberg.org/hiltsu))
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -375,7 +370,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Happy LoRaWAN hacking! 📡
