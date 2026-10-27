@@ -1,0 +1,297 @@
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Uudet nonces tallennettu EEPROM:iin
+Lähetetään JSON: 
+{"temp":19.5,"hum":22.69629,"pres":992.4327}
+Uplink onnistui
+Signaali: RSSI=-96.00 dBm, SNR=9.75 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+setBufferSession epäonnistui → reset
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Uudet nonces tallennettu EEPROM:iin
+Lähetetään JSON: 
+{"temp":19.59,"hum":22.75586,"pres":992.4291}
+Uplink onnistui
+Signaali: RSSI=-90.00 dBm, SNR=13.00 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 0
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.6,"hum":22.81055,"pres":992.4041}
+Uplink onnistui
+Signaali: RSSI=-92.00 dBm, SNR=9.00 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 1
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.61,"hum":22.72461,"pres":992.4734}
+Uplink onnistui
+Signaali: RSSI=-90.00 dBm, SNR=8.25 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 2
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.59,"hum":22.52539,"pres":992.447}
+Uplink onnistui
+Signaali: RSSI=-92.00 dBm, SNR=8.50 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 3
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.57,"hum":22.5459,"pres":992.4416}
+Uplink onnistui
+Signaali: RSSI=-92.00 dBm, SNR=8.50 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 4
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.57,"hum":22.36035,"pres":992.4162}
+Uplink onnistui
+Signaali: RSSI=-91.00 dBm, SNR=8.00 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 5
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.59,"hum":22.38184,"pres":992.3843}
+Uplink onnistui
+Signaali: RSSI=-87.00 dBm, SNR=7.75 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 6
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.63,"hum":22.23145,"pres":992.4571}
+Uplink onnistui
+Signaali: RSSI=-86.00 dBm, SNR=8.25 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 7
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.69,"hum":22.22266,"pres":992.4267}
+Uplink onnistui
+Signaali: RSSI=-90.00 dBm, SNR=8.25 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+ESP-ROM:esp32c3-eco7-20230720
+Build:Jul 20 2023
+rst:0x5 (DSLEEP),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1174
+load:0x403cbf10,len:0xb54
+load:0x403ce710,len:0x2fb4
+entry 0x403cbf10
+
+=== ESP32-C3 + RFM95W + BME280 + LoRaWAN OTAA (Päivitetty) ===
+
+Alustetaan RFM95...
+Radio OK
+Alustetaan BME280...
+Palautetaan nonces ja sessio...
+Nonces ja sessio palautettu
+Aktiivinen: ei, FCntUp: 8
+Aloitetaan OTAA activation (restore or join)...
+Yritys 1 / 5
+Activation ONNISTUI!
+Lähetetään JSON: 
+{"temp":19.72,"hum":22.14746,"pres":992.432}
+Uplink onnistui
+Signaali: RSSI=-92.00 dBm, SNR=8.25 dB
+Ei downlinkia
+Sessio tallennettu RTC:iin
+Siirrytään deep sleepiin...
+

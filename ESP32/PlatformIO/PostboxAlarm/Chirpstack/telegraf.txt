@@ -1,0 +1,88 @@
+[[inputs.mqtt_consumer.json_v2]]
+
+    # Aikaleima viestista
+    timestamp_path = "time"
+    timestamp_format = "2006-01-02T15:04:05.999999999Z07:00"
+
+    # Laitteen tunnistetiedot tageiksi (indeksoitu, tehokas haku)
+    [[inputs.mqtt_consumer.json_v2.tag]]
+      path = "deviceInfo.devEui"
+      rename = "dev_eui"
+
+    [[inputs.mqtt_consumer.json_v2.tag]]
+      path = "deviceInfo.deviceName"
+      rename = "device_name"
+
+    [[inputs.mqtt_consumer.json_v2.tag]]
+      path = "deviceInfo.applicationName"
+      rename = "application"
+
+    [[inputs.mqtt_consumer.json_v2.tag]]
+      path = "deviceInfo.tags.location"
+      rename = "location"
+      optional = true
+
+    [[inputs.mqtt_consumer.json_v2.tag]]
+      path = "object.event"
+      rename = "event"
+     optional = true
+
+    # Sensoridatan kentat (decoded object)
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.temp"
+      rename = "temperature"
+      type = "float"
+      optional = true
+
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.hum"
+      rename = "humidity"
+      type = "float"
+      optional = true
+
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.pres"
+      rename = "pressure"
+      type = "float"
+      optional = true
+
+    # Battery voltage
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.batt_v"
+      rename = "battery_voltage"
+      type = "float"
+      optional = true
+
+    # Battery percentage
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.batt_pct"
+      rename = "battery_pct"
+      type = "float"
+      optional = true
+
+    # Radiolinkin laatu
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "rxInfo.0.rssi"
+      rename = "rssi"
+      type = "int"
+      optional = true
+
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "rxInfo.0.snr"
+      rename = "snr"
+      type = "float"
+      optional = true
+
+    # Data rate
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "dr"
+      rename = "data_rate"
+      type = "int"
+      optional = true
+
+    # Posti
+    [[inputs.mqtt_consumer.json_v2.field]]
+      path = "object.mail_present"
+      rename = "mail_present"
+      type = "bool"
+      optional = true

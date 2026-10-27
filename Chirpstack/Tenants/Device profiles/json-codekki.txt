@@ -1,0 +1,39 @@
+/**
+ * BME280 JSON decoder - puhdas versio (toimii aina)
+ */
+function decodeUplink(input) {
+  try {
+    // Muutetaan byte array → merkkijono (ei Buffer-riippuvuutta)
+    let payloadStr = '';
+    for (let i = 0; i < input.bytes.length; i++) {
+      payloadStr += String.fromCharCode(input.bytes[i]);
+    }
+    payloadStr = payloadStr.trim();
+
+    // Parsitaan JSON
+    const data = JSON.parse(payloadStr);
+
+    // Siistitään desimaalit (BME280 antaa usein turhan monta)
+    if (typeof data.temp === 'number') data.temp = parseFloat(data.temp.toFixed(1));
+    if (typeof data.hum === 'number')  data.hum  = parseFloat(data.hum.toFixed(2));
+    if (typeof data.pres === 'number') data.pres = parseFloat(data.pres.toFixed(1));
+
+    return { data: data };
+
+  } catch (err) {
+    return {
+      data: {},
+      errors: ['JSON parse error: ' + err.message]
+    };
+  }
+}
+
+/**
+ * Downlink (ei käytössä, mutta pitää olla määriteltynä)
+ */
+function encodeDownlink(input) {
+  return {
+    bytes: [],
+    fPort: 1
+  };
+}
