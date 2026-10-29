@@ -4,8 +4,6 @@ Battery-powered mailbox alert system using **ESP32-C3 SuperMini** + RFM95W-868S2
 
 The microswitch detects when the mailbox lid is opened and sends an alert via LoRaWAN to ChirpStack → Telegraf → InfluxDB → Grafana → email notification.
 
-Source code at [Codeberg](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/PlatformIO/PostboxAlarm/src) 
-
 
 ## Version History
 
@@ -174,7 +172,7 @@ function decodeUplink(input) {
       battery_voltage: battery_v
     }
   };
-}
+}Source code at [Codeberg](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/PlatformIO/PostboxAlarm/src) 
 ```
 
 ## Payload Format (2 bytes, fPort=1)

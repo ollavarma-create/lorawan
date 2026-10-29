@@ -47,7 +47,7 @@ ___
 
 ## LoraWan käyttöönotto Raspberry PI 5:ssä
 
-Tein aiemmin kotelon Raspberry PI5 + SeedStudio WM1302 moduulille + hatulle + GPS/GNSS-antennille ja 868 MHz vertikaalipolariaation antennille. [Artikkelissani ohjeet](https://www.linkedin.com/pulse/ohje-kotelo-raspberry-pi-5lle-fusion-360lla-ja-jari-hiltunen-9vesf/).
+Tein aiemmin kotelon Raspberry PI5 + SeedStudio WM1302 moduulille + hatulle + GPS/GNSS-antennille ja 868 MHz vertikaalipolariaation antennille. 
 
 LoraWan-moduulina on SeedStudion WM1302 istutettuna LoraHat:n jossa kommunikaatio tapahtuu SPI:llä. Valmistajan [Wiki-ohjeessa](https://wiki.seeedstudio.com/WM1302_module/) on ohjeet mitä Raspberryssä pitäisi tehdä, jotta moduulin saa toimimaan. Raspberry Pi5 ja Raspberry Lite-imagen kohdalla ongelmaksi tulee se, että **Raspberry Pi 5**:ssä (ja joissain uudemmissa kernel-versioissa) GPIO-ohjaus on siirretty RP1 I/O -sirulle, joten kernel käyttää **uutta offset-järjestelmää** (gpiochip0 alkaa numerosta 569 ja menee eteenpäin), GPIO 17 (BCM) = kernelissä gpio-588 GPIO 18 (BCM) = kernelissä gpio-589 GPIO 5 (BCM) = kernelissä gpio-576 (= GPIO5) ja lisäksi Raspberry Pi 5:ssä (ja uusissa Raspberry Pi OS -versioissa kernel 6.6+ Bookwormissa) vanha /sys/class/gpio-rajapinta (sysfs) on deprecated ja **_osittain rikki tai estetty normaalikäytössä_**.
 
@@ -87,11 +87,9 @@ Mene viralliselle sivulle: [https://www.chirpstack.io/docs/chirpstack-gateway-os
 -   **GNSS** mikäli haluat käyttää GPS/GNSS moduulia (kommunikaatio on I2C perusteinen)
 -   Tallenna & Apply – gateway pitäisi käynnistyä automaattisesti.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQFwykuNiiBzDg/article-inline_image-shrink_1500_2232/B4DZwtjKlPJcAU-/0/1770290719672?e=1772668800&v=beta&t=Gz4aEgXX2v_7ocSS8rfhotRkwwjhDwxoHl8KAMbsEXg)
 
 Global configuration
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQGC-VZ21ddRzw/article-inline_image-shrink_1500_2232/B4DZwtj30eIYAU-/0/1770290904977?e=1772668800&v=beta&t=uGTnIkUKv1CDaYvYJOdhRHBnVkbOoY16rKIxo8G5lvU)
 
 WM1302 taajuusalue. GNSS on GPS/GNSS moduuli (I2C)
 
@@ -108,11 +106,8 @@ WM1302 taajuusalue. GNSS on GPS/GNSS moduuli (I2C)
 -   WiFi-sensorisi: Voit puskea niiden dataa samaan MQTT-brokeriin (ChirpStack puskee LoRaWAN-uplinkit MQTT:hen topicilla kuten eu868/application/xxx/device/yyy/event/up).
 -   Wifin ja LoraWan statukset näet myös **Status - Channel Analysis ja Bandwidth** kohdista.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQEZT-qiBpv_ow/article-inline_image-shrink_1000_1488/B4DZwtlANpJIAQ-/0/1770291201399?e=1772668800&v=beta&t=0ybDRIWLII_V50XEZ7p2idw35mzgcTr_UoGX3J5bi_g)
-
 2.4 GHz WiFi
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQHjY0nE_xMM4g/article-inline_image-shrink_1500_2232/B4DZwtlmebJ0AU-/0/1770291358268?e=1772668800&v=beta&t=ojioZuLmu2-TY7CHQZ9uskAF4mhc1DCjSbC2ilUsVy8)
 
 LoraWan bandwidth (tässä tyhjä)
 
@@ -123,5 +118,3 @@ LoraWan bandwidth (tässä tyhjä)
 -   Jos tarvitset custom konffia: SSH sisään (root) ja muokkaa /etc/config/chirpstack-concentratord jne.
 
 Virrankulutus on varsin pientä. Raspberry 5PI mukana tulee 5V/5A virtalähde ja se riittää vallan mainiosti vaikka tähän tulee vielä mqtt, influxdb ja Grafana.
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQHEnHZd2z6cBg/article-inline_image-shrink_1000_1488/B4DZwt16C1HwAQ-/0/1770295632786?e=1772668800&v=beta&t=P0nkrK7xghpViccKgPGPw1dIaqdGAbiMqnMWxCWhWbU)

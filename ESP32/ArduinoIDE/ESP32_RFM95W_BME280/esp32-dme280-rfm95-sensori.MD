@@ -76,20 +76,6 @@ Jos joku muu painii samanlaisessa ESP32-C3 + RFM95W + ChirpStack -projektissa, k
 
 ___
 
-Laitan kuvat tähän putkeen kun tämä paska ei anna kirjoittaa ja helvetttti hävittää pitkät tekstit saatanaaa!
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQFqBd327ha60g/article-inline_image-shrink_1500_2232/B4DZxMvsRBIUAU-/0/1770814097155?e=1772668800&v=beta&t=cwL27-4RkJ5RbHaPH5_R-MtfVvGLZ8MLsdtKZEqj7Tc)
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQE6cU6brzzkLQ/article-inline_image-shrink_1500_2232/B4DZxMvt6uGUAY-/0/1770814103894?e=1772668800&v=beta&t=gw8wO7CYqsjUb6ColJw30_oGhqMFSIPXAyydjYtVPVU)
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQEzuOW69QjgJw/article-inline_image-shrink_1000_1488/B4DZxMvv63JwAU-/0/1770814111919?e=1772668800&v=beta&t=BZeHlhj18hohusGPgyBvfQezRFpD240EME7UFS8xk1o)
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQEfJZRNQYLntw/article-inline_image-shrink_1000_1488/B4DZxMvxrGKYAY-/0/1770814119299?e=1772668800&v=beta&t=vg79esoOgLkCfRYBR33ynB3peHZbAJuGSnaSuh4kEcg)
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQH0TLaxnviBwg/article-inline_image-shrink_1500_2232/B4DZxMv0WgJ8AY-/0/1770814130189?e=1772668800&v=beta&t=o1sm9G8VgWSqIDvbejvwjFA83VpbTYwbD3uOXhP-iEY)
-
-___
-
 Sitten koodia jos tämä paskaeditori antaa sitä tänne laittaa:
 
 ```

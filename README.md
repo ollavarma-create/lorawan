@@ -91,6 +91,9 @@
 **5 May 2026**
 - Blog  story: [Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](hhttps://ollavarma-create.github.io/blog/en/posts/stevenson-shield-esp32-lorawan/)
 
+**29 October 2026**
+- Blog  story: [LoRaWAN Outdoor Sensor Half-Year Checkup](https://ollavarma-create.github.io/blog/en/posts/lorawan-ulp-sensor-half-year/)
+
 ---
 
 This repository contains files and resources for my personal **LoRaWAN** project. The goal is to build a complete LoRaWAN hardware and software stack covering the field device (node), the gateway, and network management.

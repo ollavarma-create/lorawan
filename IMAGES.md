@@ -46,7 +46,7 @@ Images are organized to match the repository directory structure.
 | ![Ethernet port side](_images/RaspberryPi_SeedStudio1302/EthernetPortSide.JPG) | **Ethernet port side** — Case cutout giving access to the Pi's RJ45 Ethernet port for wired backhaul connectivity. |
 | ![SD slot side](_images/RaspberryPi_SeedStudio1302/SDSlotSide.JPG) | **SD card slot side** — Case cutout for microSD card access without disassembly. |
 
-For the ESP32 ULP node,see article [The Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](https://hiltsu.codeberg.page/en/posts/stevenson-shield-esp32-lorawan/)
+For the ESP32 ULP node,see article [The Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](https://ollavarma-create.github.io/blog/en/posts/stevenson-shield-esp32-lorawan/)
 
 ---
 

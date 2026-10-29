@@ -395,7 +395,7 @@ Check the `object` block for the exact field names used by your codec.
 
 MIT License
 
-Copyright (c) 2026 Jari Hiltunen (Codeberg: [hiltsu](https://codeberg.org/hiltsu))
+Copyright (c) 2026 Jari Hiltunen 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

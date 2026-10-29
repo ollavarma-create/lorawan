@@ -20,8 +20,6 @@ Ennen varsinaista suunnittelua, hanki Raspberry Pi 5:n ja tarvittaessa muiden os
 
 Voit löytää myös muiden komponenttien STEP-tiedostot valmiina. Esimerkiksi tähän projektiin minun piti piirtää vain GPS/GNSS-moduuli. Löydät Fusion360 piirrokseni [tästä linkistä](https://outlook37929.autodesk360.com/g/shares/SH90d2dQT28d5b602811a4ee6c9d4a9d8285).
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQHKLXYWPRA2_g/article-inline_image-shrink_1000_1488/B4DZwopnwFJEAQ-/0/1770208526639?e=1772668800&v=beta&t=eNwJYT_AIcHx0kAvfdYD6oIWrHkfuSmMmY2NQ6SaTHM)
-
 LoRaWan projektin roippeita, jotka pitää saada yhteen koteloon
 
 ### Millainen rako?
@@ -41,8 +39,6 @@ Tässä esimerkki Raspberry Pi 5 -kotelon suunnittelusta, joka sisältää pohja
 -   Avaa Fusion 360 ja luo uusi Hybrid Design. Älä käytä Part Design (oletus), sillä teet kuitenkin useamman osan samaan kuvaan. Mikäli aloitat piirustuksen Parts- asetuksella, sinulta puuttuu Create New Component menusta. Parts:lla luodun osan voi toki tuoda osaksi kokonaisuutta, mutta yksin tehdyssä kehityksessä se on riesa, koska joudut seilaamaan edestakaisin eri tiedostojen välillä.
 -   Vaihda yksiköiksi mm, gram ellei jo ole
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQGHkN41fdk2rg/article-inline_image-shrink_1500_2232/B4DZwofbKjJsAU-/0/1770205852790?e=1772668800&v=beta&t=1c7bsWmOBVdHA72_uqAbsQThFgf5dWaX6A7fRYFXAI8)
-
 Tärkein valinta heti aloituksessa
 
 2. **Luo pohja (base)**:
@@ -58,7 +54,6 @@ Kaikki alkaa Sketch:stä ja sen sijoittamisella oikealla X/Y/Z-akselistolle. Voi
 -   Extrude (purista) ensimmäisenä pohjaa alaspäin 2 mm ja sen jälkeen seinämiä ylöspäin haluamaasi korkeuteen.
 -   Lisää kiinnityspilarit (standoffs): Piirrä ympyrät kiinnitysreikien paikkoihin ja extrude ne 5-7 mm korkeiksi. Lisää yläpäähän kierteet, jos käytät ruuveja.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQFGv_bc_-tTeA/article-inline_image-shrink_1500_2232/B4DZwohAiOKwAY-/0/1770206268277?e=1772668800&v=beta&t=58FVEhV2b-W5MB8gLNy5Fr1XMz-QJgfWvdiCIyGksDs)
 
 Esimerkki pohjan ja seinämien sketchistä
 
@@ -71,15 +66,9 @@ Huomioi, että Raspberryn portit tulevat ulos piirilevyltä. Eli suunnittele kot
 -   Piirrä seinämiin uudet Sketchit ja sovita reiät vähintään 0,2 mm suuremmaksi kuin itse liitin on.
 -   Mitat kannattaa aina kiinnittää johonkin konktreettiseen kiintopisteeseen. Et voi kuitenkaan suoraan projisoida tuotua Raspberry Pi5 stl-tiedostoa ja käyttää sitä referenssipisteenä. Tässä kuvassa olen käyttänyt vasenta laitaa ja alareunaa referenssipisteenä, mutta kuten sinisistä viivoista näkyy, osa mitoista ei ole kiinnitetty.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQELqkdDISAQWQ/article-inline_image-shrink_1500_2232/B4DZwojzMFJIAU-/0/1770207000328?e=1772668800&v=beta&t=2p8Rq-VW6ucLKKpYlXUQlJByxwJZXQOmmEoQOisPPTQ)
-
 USB-C ja 2x HDMI porttien paikat oikealla sivulla
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQEA77zlRLnmTA/article-inline_image-shrink_1000_1488/B4DZwokJ37K4AU-/0/1770207093203?e=1772668800&v=beta&t=WxrgL0Vft71u73oCZp7Z9iSHgH9UwfAVzxFVxQ5HW6o)
-
 Ethernet-portti ja USB-A modulit.
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQGovwx0YGWr4g/article-inline_image-shrink_1500_2232/B4DZwokl4gG8AU-/0/1770207207886?e=1772668800&v=beta&t=H54uijwJio1UsRcRupbp_-o2qcYZAFoKc_rzEAJAJec)
 
 SD-slotti, reset painike ja ledin paikka
 
@@ -91,23 +80,15 @@ Kiinnityksiä voi olla monenlaisia. Voit tehdä helposti ruuvikiinnityksen tai v
 -   Voit käyttää myös Joint-työkalua (esim. Snap Fit) kiinnittämään kansi pohjaan. Tämä on hyvä tapa tehdä irrotettava kansi ilman ruuveja, tai luo pieniä "koukkuja" seinien yläreunaan, jotka napsahtavat paikalleen.
 -   Lisää ilmanvaihtoaukot (vents) lämpöongelmien välttämiseksi: Piirrä reikiä tai ritilöitä kanteen ja pohjaan.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQH3zhUoYgG9NQ/article-inline_image-shrink_1500_2232/B4DZwoluAoG4Ao-/0/1770207503370?e=1772668800&v=beta&t=6Q6EXmbpctbNlEC1eCemfjSUi9769V2HC6zWhe-kfU8)
-
 Taiteellisuus on sallittua kunhan se toimii
 
 Sitten kun olet tehnyt reitykset ja muut asiat kuntoon, käytä Inspect-työkaluja hahmottaaksesi mahdolliset ongelmakohdat. Accessibility-työkalu on myös hyvä. Tarvittaessa tee Joints ja Assemble osat yhteen nähdäksesi toiminnallisuutta.
 
 Vaikka teet tarkistuksia, on todennäköistä, että unohdat jotain. Esimerkiksi alla olevassa videossa näkyy virhe SD-kortin aukossa ja etupaneelin USB-A moduulien laskussa. SD-korttia ei olisi voinut käytännössä vaihtaa kuin pinseteillä ja USB-A porttien alareunasta on unohtunut leikata U:n muotoinen pieni pala pois, eli piirilevy ei mennyt pohjaan.
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQHMvxdLwXZvWw/article-inline_image-shrink_1000_1488/B4DZwotHizGQAQ-/0/1770209443668?e=1772668800&v=beta&t=OGyaJX-Rb_kxGzM6w_IKIZ9GhvpSXapCrDrXmJIdtzQ)
-
 Piirilevy jäi kantamaan USB-A moduulien vuoksi
 
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQFKQP63LtkmfQ/article-inline_image-shrink_1000_1488/B4DZwotSVkIYAQ-/0/1770209487863?e=1772668800&v=beta&t=opYQ5UF9mYeOoCdbYOK1aYDZJdnXkQyMIjiidP9-_4Q)
-
 SD-kortin slottiin ei pääse käsiksi
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQG562RREj99vQ/article-inline_image-shrink_1000_1488/B4DZwotapYJkAQ-/0/1770209521733?e=1772668800&v=beta&t=o3zd_3RaudMSKxDDaFa0GlUYNHmKq3R5T-HbVbBUluY)
 
 Pimeässä vihreänä heijastava PLA on aika hauska
 
@@ -172,43 +153,29 @@ Edellä olevan kotelon tulostusaika oli yli 5 tuntia ja tulostusjälki on riitt�
 
 Tulostuksen jälkeen puhdista roiskeet ja ota supportit varovasti pois. Tässä tulosteessa oli hieman heittoa keskiosan sivussa, ilmeisesti filamentin syötössä tapahtunut jokin häiriö. Se ei kuitenkaan menoa haittaa. Alla muutamia kuvia valmiista projektista.
 
-![Raspberry PI5 alaosaan kiinnitettynä](https://media.licdn.com/dms/image/v2/D4D12AQHxNbvpQHd4OA/article-inline_image-shrink_1000_1488/B4DZwpbRPeIUAU-/0/1770221541917?e=1772668800&v=beta&t=m00JCFYiUSqL8QuXr_YTJppPhwRVHzp_I-cwwIbW4Z8)
-
 Bottom ja Raspberry PI5
 
 Raspberryn piirilevy osuu juuri oikein reikiin ja USB-C, USB-A moduliet ja Ethernet portit osuvat kohdilleen.
-
-![USB slottien sivusta katsottuna](https://media.licdn.com/dms/image/v2/D4D12AQF_Fl7dQ2pz7A/article-inline_image-shrink_1000_1488/B4DZwpbZD0IUAU-/0/1770221573806?e=1772668800&v=beta&t=e9P4mxdQp-IV87UR2WQbhyC9mBTdrkbn6X3Op4pfTng)
 
 Mid
 
 WM1302 SeedStudio LoraWan hatun USB-C reikäkin osuu johdalleen tarkasti ja portit ovat nyt kauniisti paikoillaan. Rakoja ei näy.
 
-![Takaa katsottuna](https://media.licdn.com/dms/image/v2/D4D12AQFQAQoV0ENLRQ/article-inline_image-shrink_1000_1488/B4DZwpbf13IUAQ-/0/1770221601692?e=1772668800&v=beta&t=8wuWPNrxXRv-bLR17rxScYnavnrnr0gsMdzMDMpRcYM)
-
 Back
 
 Takaa katsottuna SD-kortti on nyt vaihdettavissa ja resetin voi painaa jos tarvitsee. Oikeassa reunassa näkyy pientä rakoa ja se johtuu kirjoittimesta tai käyttämästäni vihreässä loistavasta PLA-filamentista.
-
-![Antennit kiinnitettynä](https://media.licdn.com/dms/image/v2/D4D12AQFnrkpgD7lnSA/article-inline_image-shrink_1000_1488/B4DZwpbmoUHwAQ-/0/1770221629546?e=1772668800&v=beta&t=fxFo6NPW3FDub-WNxrKugWuARJ5xQ5wEtQuLwkiPZH8)
 
 Installation
 
 Asennuksen kannalta 868 MHz antennin juuri ja asennus piirilevylle sekä GPS/GNSS modulin antennit on helppo laittaa paikalleen. GPS/GNSS moduli menee sivuttain kannen reiän lävitse.
 
-![Valmis paketti](https://media.licdn.com/dms/image/v2/D4D12AQHAR6eKxRuAVg/article-inline_image-shrink_1000_1488/B4DZwpbvpzHMAc-/0/1770221666469?e=1772668800&v=beta&t=M__3d2GNATrcZ3XtpDbekyaNiira4abrMyX-6KP4H3Y)
-
 Complete setup
 
-Valmis paketti. Toimiva, joskaan ei ihan kultaisen leikkauksen mukainen (1,618 : 1) joka olisi silmälle se kaunein vaihtoehto.
-
-![Takaa katsottuna, ensimmäisen kerran virrat päällä](https://media.licdn.com/dms/image/v2/D4D12AQEgu43ZG5FhZg/article-inline_image-shrink_1000_1488/B4DZwpcBRzHEAU-/0/1770221738419?e=1772668800&v=beta&t=h1FYWS6uNrA27Pb8e9IqAqzx1HZmIKMAVyeOufBkywY)
+Valmis paketti. Toimiva, joskaan ei ihan kultaisen leikkauksen mukainen (1,618 : 1) joka olisi silmälle se kaunein vaihtoehto.
 
 Back and powered on first time
 
 Ensimmäisen kerran virrat päälle...
-
-![Artikkelin sisältö](https://media.licdn.com/dms/image/v2/D4D12AQGbzU-MB-FbwQ/article-inline_image-shrink_1000_1488/B4DZwpc60zJkAU-/0/1770221974510?e=1772668800&v=beta&t=VzvjoJtB6XTGmNryd8zvgIHFwM0bHHy2K2FlmNVYQ_A)
 
 First boot
 
